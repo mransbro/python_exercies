@@ -7,8 +7,8 @@ numbers = range(1, 21)
 
 for n in numbers:
     if n == 4 or n == 13:
-        print(f'{n} is UNLUCKY!')
+        print(f"{n} is UNLUCKY!")
     elif n % 2 == 0:
-        print(f'{n} is even')
+        print(f"{n} is even")
     else:
-        print(f'{n} is odd')
+        print(f"{n} is odd")
